@@ -1,0 +1,26 @@
+<!-- Toolbar -->
+<header>
+  <h1 class="text-center text-info">Spider Task 101</h1>
+</header>
+<br />
+<br />
+<br />
+<div class="fluid-container">
+  <div class="row">
+    <div class="col-4">
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Models</h2>
+      <ul>
+        <li class="card"><a routerLink="/student-form" routerLinkActive="active">Student</a></li>
+        <li class="card"><a routerLink="/teacher-form" routerLinkActive="active">Teacher</a></li>
+      </ul>
+    </div>
+    <div class="col-8">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="text-center w-100 mt-5">
+    Made By Nevets
+  </div>
+</div>
